@@ -1,0 +1,106 @@
+@media screen and (max-width: 991px) {
+	.section-4{width: 100#;}
+	.service-text{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 18px !important;
+	}
+	.service-b{
+		display: flex;
+		flex-direction: column;
+	}
+	.service-b i{
+		width:35px !important;height: 35px !important;
+	}
+	.service-b h1{
+		font-size: 22px !important;
+	}
+	.service-b p{
+		font-size: 20px !important;
+	}
+	.service-1 a{
+		font-size: 20px !important;
+	}
+
+	.profile {
+    	width: 40.5rem;
+   		margin: 0 auto;
+	}
+	.card-body {
+    	font-size: 20px;
+    	text-align: center;
+	}
+	.card-title {
+    	font-size: 22px !important;
+    	text-align: center;
+	}
+	.vp {
+    	font-size: 20px !important;
+	}
+	
+	.project h1, .company h4, .contact h4{
+		font-size: 22px !important; 
+		text-align: center;
+	}
+	.project-text h4 {
+   		font-size: 20px !important;
+   	}
+
+	.project-1 {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding: 35px 0;
+	}
+
+	.company-text {
+	    display: flex;
+	    justify-content: space-evenly;
+	    align-items: center;
+	}
+	.project-text p, .company-1 p, .company-2 p {
+		font-size: 17px !important;
+	}
+	
+	.composition-center h1 {
+    font-size:22px !important;
+    padding:0 !important;
+	}
+	.project-main{
+		display: flex;
+	}
+	.project-1 img {
+	    width:150px !important;
+	    height: 175px !important;
+	}
+	.company-text {
+   		padding-top: 20px;
+	}
+	.contact-form {
+    	text-align: center;
+    	padding-top: 20px;
+	}
+	input[type="text"], input[type="Email"], textarea{
+    	width: 400px !important;
+    	height: 50px!important;
+ 	}
+ 	textarea{
+ 		width: 400px !important;
+ 		height: 50px!important;
+ 	}
+ 	input[type="SUBMIT"] {
+    	width: 270px!important;
+    	height: 60px!important;
+    	font-size: 22px !important;
+	}
+	.text-start, .text-end {
+    	text-align: center !important;
+    	padding: 0!important;
+	}
+}
+
+@media screen and (min-width: 576px){
+	
+
+}

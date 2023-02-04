@@ -1,0 +1,211 @@
+*{padding: 0;margin: 0;}
+body{background: #95a5a6;}
+img{width: 100%;height: auto;display: block;}
+
+/*the man css is start*/
+.section-1{
+	width: 100%;
+	background: #EDEDED;
+}
+.contaner{
+	padding:0 20px;
+}
+
+.header{
+	height: 136px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{width: 35%;}
+.logo h1{
+	font-size: 28px;
+	color: #505050;
+}
+.logo p{}
+
+.menu{
+	width:60%;
+	height: 55px;
+	background: #e2494b;
+	border: 1px solid #e2494b;
+	border-radius: 10px;
+}
+.menu ul{
+	padding: 18px 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.menu ul li{}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{color: #ee9395;} 
+
+/*-----------------------section-1 end---------------------*/
+
+.section-7{
+	background: #EDEDED;
+	padding-top: 50px;
+}
+
+.composition{}
+
+.composition-center {
+    width: 100%;
+    padding: 30px 0;
+}
+.composition-center h1 {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: #FFF;
+    background: #e2494b;
+    border: 1px solid #e2494b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 11px;
+    margin: 0 auto;
+}
+/*-----------------------Section-7 ends---------------------*/
+
+.album-section {
+    padding-bottom: 30px;
+}
+
+.container{
+	
+}
+
+.photo-album{
+	display: flex;
+	justify-content: space-between;
+}
+.photo{
+	width: 23%;
+}
+
+.photo-1{
+	position: relative;
+}
+
+.photo-1::before{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .4s;
+	opacity: 0.8;
+}
+
+.photo-1:hover::before{
+	width: 90%;
+	height: 90%;
+}
+
+.photo-2{
+	position: relative;
+	overflow: hidden;
+}
+.photo-2::before{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 50%;
+	background-color: #0984e3;
+	position: absolute;
+	top: -100%;
+	left: 0;
+	opacity: .75;
+	transition: .4s;
+}
+
+.photo-2::after{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 50%;
+	background-color: #d63031;
+	position: absolute;
+	bottom: -100%;
+	right: 0;
+	opacity: .75;
+	transition: .4s;
+}
+
+.photo-2:hover::before{
+	top: 0;	
+}
+
+.photo-2:hover::after{
+	bottom: 0;
+}
+
+.photo-3{
+
+}
+
+.photo-3 img{
+	transition: .5s;
+}
+
+.photo-3:hover img{
+	transform: rotateY(180deg);
+}
+
+
+.photo-4{
+	position: relative;
+	overflow: hidden;
+}
+
+.social-icons{
+	background-color: rgba(9, 132, 227, .7);
+	width: 50px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+
+.social-icons ul{
+	list-style: none;
+}
+
+.social-icons ul a{
+	color: #fff;
+	display: block;
+	padding: 10px 0;
+	margin-right: 25px;
+}
+
+.photo-4:hover .social-icons{
+	right: 0;	
+}
+
+/*-----------------------Section ends---------------------*/
+.vp{
+	display: none;
+}
+
+/*------ this is the footer------------*/
+.section-9{
+	margin-top: 45px;
+	background: #e2e2e2;
+	width: 100%;
+}

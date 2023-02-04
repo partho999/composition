@@ -1,0 +1,86 @@
+*{padding: 0;margin: 0;}
+body{}
+img{width: 100%;height: auto;display: block;}
+
+/*the man css is start*/
+.section-1{
+	width: 100%;
+	background: #EDEDED;
+}
+.contaner{
+	padding:0 20px;
+}
+
+.header{
+	height: 136px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{width: 35%;}
+.logo h1{
+	font-size: 28px;
+	color: #505050;
+}
+.logo p{}
+
+.menu{
+	width:60%;
+	height: 55px;
+	background: #e2494b;
+	border: 1px solid #e2494b;
+	border-radius: 10px;
+}
+.menu ul{
+	padding: 18px 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.menu ul li{}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{color: #ee9395;} 
+
+/*-----------------------section-1 end---------------------*/
+
+.section-7{
+	background: #EDEDED;
+	padding-top: 50px;
+}
+
+.composition{}
+.composition-center{
+	width: 100%;
+}
+.composition-center h1 {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: #FFF;
+    background: #e2494b;
+    border: 1px solid #e2494b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 11px;
+    margin: 0 auto;
+}
+/*-----------------------Section-7 ends---------------------*/
+.section-8{margin-top:40px;}
+.last-work {
+    margin-top: 22px;
+}
+.last-work img{}
+
+/*------ this is the footer------------*/
+.section-9{
+	margin-top: 45px;
+	background: #e2e2e2;
+	width: 100%;
+}

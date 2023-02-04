@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+body{}
+img{width: 100%;height: auto;display: block;}
+
+/*the man css is start*/
+.section-1{
+	width: 100%;
+}
+.contaner{
+	padding:0 20px;
+}
+.header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4.2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+}
+.header.\.fixed{
+	background: #e2494b;
+	padding: 1rem 2rem;
+	color: #FFF;
+}
+.logo span{
+	color:#e2494b;
+}
+
+.logo h1{
+	font-size: 28px;
+	color: #505050;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #333;
+	text-transform: uppercase;
+	padding: 0 11px;
+}
+.menu ul li a.\.menu{
+	color: #FFF;
+}
+.menu ul li a:hover{color: #ee9395;}
+ /*-----------------------------------Section-1 end-----------------------*/
+ /*-----------------------------------Section-2 Start-----------------------*/
+.section-2{
+	width: 100%;
+	position: relative;
+}
+.slider-text {
+    width: 100%;
+    padding: 10rem 0 0;
+    text-align: center;   
+}
+.slider-text p {
+    color: #333333;
+    font-size: 23px;
+	padding: 0 5%;
+} 
+
+/*-----------------------slider end---------------------*/
+
+.section-3{width: 100%;padding-top:50px;}
+.composition{position: relative;}
+.composition-center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.composition-center h1{
+	width: 177px;
+	height: 30px;
+	font-size: 18px;
+	color: #FFF;
+	background: #e2494b;
+	border: 1px solid #e2494b;
+	border-radius: 10px;
+	text-align: center;
+	padding: 4px 0 0;
+}
+/*-----------------------Section-3 ends---------------------*/
+.section-4{
+	padding-top: 40px;
+}
+.service-b i{width: 32px;height: 32px;}
+.service-b h1{font-size: 18px;}
+.service-b p{font-size: 18px;}
+.service-1 a{
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	color: #e2494b;
+	padding-bottom:60px;
+	text-transform: uppercase;
+}
+/*-----------------------Section-4 ends---------------------*/
+
+.section-5{margin-top: 45px;}
+/*-----------------------Section-5 ends---------------------*/
+
+.section-6 {
+    padding-top: 45px;
+    margin-left: 25px;
+    /* border: none; */
+}
+.card{
+	border: none;
+	color: #979797;
+}
+
+.vp{
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	color: #e2494b;
+	padding-bottom:60px ;
+}
+/*-----------------------Section-4 ends---------------------*/
+.section-7{margin-top: 50px;}
+/*-----------------------Section-7 ends---------------------*/
+.section-8{margin-top: 50px;}
+.last-work{margin-top: 45px;}
+.last-work img{padding-bottom: 50px;}
+/*-----------------------Section-8 ends---------------------*/
+
+.section-9{
+	margin-top: 45px;
+	background: #e2e2e2;
+	width: 100%;
+}
+.project h1, .company h4, .contact h4{
+	font-size: 20px; 
+	color: #333333;
+	padding-top: 40px;
+}
+.project-1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+}
+.project-1 img{
+	width: 95px;
+	height: 95px;
+	border: 1px solid #8e8f8a;
+	padding: 5px;
+}
+.project-text, .contact{padding: 0 25px;}
+.project-text h4{font-size: 16px;color: #e2494b;}
+.project-text p, .company-1 p{font-size: 14px;color: #999999;}
+.company-1{padding: 20px 0 10px;}
+.company-2 {padding: 0 0 13px;}
+.company-2 p{font-size: 14px;color: #999999;}
+input[type="text"]{margin: 20px 0 10px;}
+input[type="text"],input[type="Email"] {
+    width: 226px;
+    height: 32px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 226px;
+    height: 111px;
+    padding: 5px;
+}
+input[type="SUBMIT"] {
+    width: 100px;
+    height: 36px;
+    padding: 5px;
+    background: #e2494b;
+    box-sizing: border-box;
+    border: 1px solid #0984e3;
+}
+input[type="SUBMIT"], textarea,input[type="Email"]{
+	margin: 10px 0;
+} 
+.text-start, .text-end{
+   color: #999999;
+    padding: 15px 0;
+}
+/*footer-1 ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- This is the animation section ---------*/
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
